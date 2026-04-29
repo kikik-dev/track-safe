@@ -1,0 +1,27 @@
+name: track_safe
+description: TrackSafe - Railway Alert (Lite Version)
+publish_to: 'none'
+
+version: 1.1.0+1
+
+environment:
+  sdk: ^3.5.0 # Required for the latest Flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.2
+  google_maps_flutter: ^2.10.0
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.2
+  firebase_messaging: ^15.2.1
+  web_socket_channel: ^3.0.1 # Added for v1.1 WebSocket support
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # Upgraded to latest lints
+
+flutter:
+  uses-material-design: true
